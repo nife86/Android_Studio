@@ -1,0 +1,41 @@
+refer to the discussion thread at https://stackoverflow.com/questions/18324555/copy-existing-project-with-a-new-name-in-android-studio
+
+copy the following answer from nt.bas
+
+===========================================
+
+If you are using the newest version of Android Studio, you can let it assist you in this.
+
+Note: I have tested this in Android Studio 3.0 only.
+
+The procedure is as follows:
+
+1. In the project view (this comes along with captures and structure on the left side of screen), select Project instead of Android.
+   The name of your project will be the top of the tree (alongside external libraries).
+   Select your project then go to "Refactor -> Copy...."
+   Android Studio will ask you the new name and where you want to copy the project. Provide the same.
+
+2. After the copying is done, open your new project in Android Studio.
+   Packages will still be under the old project name.
+   That is the Java classes packages, application ID and everything else that was generated using the old package name.
+   We need to change that.
+   In the project view, select Android.
+   Open the java sub-directory and select the main package.
+   Then right click on it and go to "Refactor" then "Rename".
+   Android Studio will give you a warning saying that multiple directories correspond to the package you are about to refactor.
+   Click on "Rename package" and NOT "Rename directory".
+   After this step, your project is now completely under the new name.
+
+3. Open up the res/values/strings.xml file, and change the name of the project.
+4. Don't forget to change your application ID in the "Gradle Build Module: app".
+5. A last step is to clean and rebuild the project otherwise when trying to run your project Android Studio will tell you it can't install the APK (if you ran the previous project).
+   So "Build -> Clean project then Build -> Rebuild project".
+   
+Now you can run your new cloned project.
+
+===========================================
+
+additional note:
+1. modify the 'applicationId' at "Gradle Scripts -> build.gradle (Module:app)" first.
+2. modify the 'rootProject.name' at "Gradle Scripts -> settings.gradle (Projects Settings)".
+3. make sure the directory path is correct(new copy path) when Java classes packages modification.
