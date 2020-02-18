@@ -39,3 +39,4 @@ additional note:
 1. modify the 'applicationId' at "Gradle Scripts -> build.gradle (Module:app)". MUST check the file path first!
 2. modify the 'rootProject.name' at "Gradle Scripts -> settings.gradle (Projects Settings)".
 3. make sure the directory path is correct(new copy path) when Java classes packages modification.
+4. package rename - "Refactor" -> "Rename" -> "Do Refactor".
