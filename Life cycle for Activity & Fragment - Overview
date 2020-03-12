@@ -1,0 +1,30 @@
+# 'Overview'
+
+2020-03-12 14:06:52.438 5117-5117/com.example.lab_iot_01 D/@@@@@: MainActivity.onCreate()
+2020-03-12 14:06:52.474 5117-5117/com.example.lab_iot_01 D/@@@@@: BlankFragment.onAttach()
+2020-03-12 14:06:52.474 5117-5117/com.example.lab_iot_01 D/@@@@@: MainActivity.onAttachFragment()
+2020-03-12 14:06:52.474 5117-5117/com.example.lab_iot_01 D/@@@@@: BlankFragment.onCreate()
+2020-03-12 14:06:52.475 5117-5117/com.example.lab_iot_01 D/@@@@@: BlankFragment.onCreateView()
+2020-03-12 14:06:52.490 5117-5117/com.example.lab_iot_01 D/@@@@@: BlankFragment.onViewCreated()
+2020-03-12 14:06:52.490 5117-5117/com.example.lab_iot_01 D/@@@@@: BlankFragment.onActivityCreated()
+2020-03-12 14:06:52.491 5117-5117/com.example.lab_iot_01 D/@@@@@: BlankFragment.onStart()
+2020-03-12 14:06:52.492 5117-5117/com.example.lab_iot_01 D/@@@@@: MainActivity.onStart()
+2020-03-12 14:06:52.504 5117-5117/com.example.lab_iot_01 D/@@@@@: MainActivity.onResume()
+2020-03-12 14:06:52.505 5117-5117/com.example.lab_iot_01 D/@@@@@: BlankFragment.onResume()
+2020-03-12 14:06:52.505 5117-5117/com.example.lab_iot_01 D/@@@@@: MainActivity.onResumeFragments()
+
+the button 'Overview' pressed
+
+2020-03-12 14:07:00.528 5117-5117/com.example.lab_iot_01 D/@@@@@: BlankFragment.onPause()
+2020-03-12 14:07:00.529 5117-5117/com.example.lab_iot_01 D/@@@@@: MainActivity.onPause()
+2020-03-12 14:07:00.575 5117-5117/com.example.lab_iot_01 D/@@@@@: BlankFragment.onStop()
+2020-03-12 14:07:00.576 5117-5117/com.example.lab_iot_01 D/@@@@@: MainActivity.onStop()
+
+after selected the app in the list of 'Overview'
+
+2020-03-12 14:07:09.889 5117-5117/com.example.lab_iot_01 D/@@@@@: MainActivity.onRestart()
+2020-03-12 14:07:09.895 5117-5117/com.example.lab_iot_01 D/@@@@@: BlankFragment.onStart()
+2020-03-12 14:07:09.896 5117-5117/com.example.lab_iot_01 D/@@@@@: MainActivity.onStart()
+2020-03-12 14:07:09.929 5117-5117/com.example.lab_iot_01 D/@@@@@: MainActivity.onResume()
+2020-03-12 14:07:09.930 5117-5117/com.example.lab_iot_01 D/@@@@@: BlankFragment.onResume()
+2020-03-12 14:07:09.930 5117-5117/com.example.lab_iot_01 D/@@@@@: MainActivity.onResumeFragments()
