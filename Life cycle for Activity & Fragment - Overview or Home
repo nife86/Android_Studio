@@ -1,4 +1,4 @@
-# 'Overview'
+# 'Overview' & 'Home'
 
 2020-03-12 14:06:52.438 5117-5117/com.example.lab_iot_01 D/@@@@@: MainActivity.onCreate()
 2020-03-12 14:06:52.474 5117-5117/com.example.lab_iot_01 D/@@@@@: BlankFragment.onAttach()
@@ -13,7 +13,7 @@
 2020-03-12 14:06:52.505 5117-5117/com.example.lab_iot_01 D/@@@@@: BlankFragment.onResume()
 2020-03-12 14:06:52.505 5117-5117/com.example.lab_iot_01 D/@@@@@: MainActivity.onResumeFragments()
 
-the button 'Overview' pressed
+the button 'Overview' or 'Home' pressed
 
 2020-03-12 14:07:00.528 5117-5117/com.example.lab_iot_01 D/@@@@@: BlankFragment.onPause()
 2020-03-12 14:07:00.529 5117-5117/com.example.lab_iot_01 D/@@@@@: MainActivity.onPause()
