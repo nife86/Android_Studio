@@ -1,1 +1,1 @@
-# Android_Studio
+# some notes for Android development
